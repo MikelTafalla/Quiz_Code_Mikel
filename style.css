@@ -11,4 +11,39 @@ container {
     background-color: lightgreen;
 }
 
+#questions {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#ans1 {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    background-color: lightblue;
+    border: solid;
+    padding-left: 10px;
+    
+}
+
+#ans2 {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    background-color: lightblue;
+    border: solid;
+    padding-left: 10px;
+}
+
+#ans3 {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    background-color: lightblue;
+    border: solid;
+    padding-left: 10px;
+}
 
