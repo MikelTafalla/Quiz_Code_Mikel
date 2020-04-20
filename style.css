@@ -1,0 +1,14 @@
+container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#start {
+    margin-left: 47%;
+    margin-right: 50%;
+    font-size: 25px;
+    background-color: lightgreen;
+}
+
+

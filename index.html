@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <container>
+        <h1 id="heading">Coding Quiz Challenge</h1>
+        <h3 id="Description"> Please click the 'Start' button to begin the quiz. <br> When you click the button a series of questions and answers will be displayed and a countdown will start.<br> If you choose the correct answer you'll move forward. If you choose the wrong answer you'll move forward and 5 seconds extra will be subtracted from the countdown.</h3>
+        <button id="start">Start Quiz</button>
+    </container>
+    <section id="quiz" style="display: none;">
+        <div id="questions"></div>
+        <div id="choices">
+            <div id="ans1">Answer1</div>
+            <div id="ans2">Answer2</div>
+            <div id="ans3">Answer3</div>
+        </div>
+        <div id="timer"></div>
+        <div id="Scorecontainer" style="display: none;"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
