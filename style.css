@@ -20,30 +20,51 @@ container {
 }
 
 #ans1 {
+    /* position: relative;
+    left: 25%; 
+    font-size: 1em;
+    word-break: break-all; */
     margin: auto;
     width: 50%;
     text-align: left;
     background-color: lightblue;
     border: solid;
     padding-left: 10px;
-    
+    margin-bottom: 10px;  
 }
 
 #ans2 {
+    /* position: relative;
+    left: 25%; 
+    font-size: 1em;
+    word-break: break-word; */
     margin: auto;
     width: 50%;
     text-align: left;
     background-color: lightblue;
     border: solid;
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 #ans3 {
+    /* position: relative;
+    left: 25%;
+    font-size: 1em;
+    word-break: break-all; */
     margin: auto;
     width: 50%;
     text-align: left;
     background-color: lightblue;
     border: solid;
     padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#timer {
+    position: absolute;
+    top: 3px;
+    left: 80%;
 }
 
