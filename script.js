@@ -110,7 +110,7 @@ function nextQuestion(event) {
 function scoreTrackerPage() {
     containerEl.style.display = "none";
     quizEl.style.display = "none";
-    scoreContainerEl.display = "block";
+    scoreContainerEl.style.display = "block";
 }
 
 //Call the nextQuestion function
