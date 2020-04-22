@@ -20,24 +20,26 @@ container {
 }
 
 #ans1 {
-    /* position: relative;
+    position: relative;
     left: 25%; 
     font-size: 1em;
-    word-break: break-all; */
+    word-break: break-all;
     margin: auto;
     width: 50%;
     text-align: left;
     background-color: lightblue;
     border: solid;
     padding-left: 10px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%; 
 }
 
 #ans2 {
-    /* position: relative;
+    position: relative;
     left: 25%; 
     font-size: 1em;
-    word-break: break-word; */
+    word-break: break-word;
     margin: auto;
     width: 50%;
     text-align: left;
@@ -45,13 +47,15 @@ container {
     border: solid;
     padding-left: 10px;
     margin-bottom: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #ans3 {
-    /* position: relative;
+    position: relative;
     left: 25%;
     font-size: 1em;
-    word-break: break-all; */
+    word-break: break-all;
     margin: auto;
     width: 50%;
     text-align: left;
@@ -59,7 +63,17 @@ container {
     border: solid;
     padding-left: 10px;
     margin-bottom: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     
+}
+
+#wrong-right {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 #timer {
