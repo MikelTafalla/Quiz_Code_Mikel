@@ -39,7 +39,7 @@ var questions = [
 ]
 
 //Create new variables
-var quizTime = 15;
+var quizTime = 30;
 var followingQuestions = 0;
 var score = 0;
 var timerInterval;
@@ -67,7 +67,7 @@ function displayTimer() {
             scoreTrackerPage();
         }
         //Amount of time spent on quizz
-        CompletionTime = 15 - quizTime
+        CompletionTime = 30 - quizTime
     }, 1000);
 }
 
@@ -92,10 +92,12 @@ function nextQuestion(event) {
         displayMsg.style.color = "green"
         displayMsg.innerHTML = "CORRECT!"
     } else {
-        //if answer is wrong, subtract 5 seconds from timer and print "WRONG!" on red
+        //if answer is wrong, print "WRONG!" on red
         displayMsg.style.color = "red"
         displayMsg.innerHTML = "WRONG!"
-        // displayTimer().subtract(5, "seconds"); NOT WORKING
+        //Subtract 5 seconds from timer
+        quizTime -= 5;
+        timerEl.innerHTML= "Time: "+ quizTime;
     }
     //keep moving on the questions until we answer the last one. Then go to the scoreTrackerPage
     if (followingQuestions < questions.length -1) {
