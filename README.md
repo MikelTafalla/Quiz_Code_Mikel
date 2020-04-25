@@ -1,7 +1,7 @@
 # Quiz_Code_Mikel
 
 ## Link
-[Take the Quiz Code]()
+[Take the Quiz Code](https://mikeltafalla.github.io/Quiz_Code_Mikel/)
 
 ### Summary
 1. Quiz created with html, css and js.
