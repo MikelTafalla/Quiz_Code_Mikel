@@ -109,7 +109,7 @@ function nextQuestion(event) {
         scoreTrackerPage();
 
     }
-    //if we keep on having questions, after adding a number to our index with followingQuestions++, que display the corresponding Q & A
+    //if we keep on having questions, after adding a number to our index with followingQuestions++, then display the corresponding Q & A
     displayQuestions();
     
 };
