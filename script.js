@@ -13,7 +13,6 @@ var displayScoreEl = document.getElementById("score");
 var displayFinalTimeEl = document.getElementById("finaltime");
 var recordUserEl = document.getElementById("user");
 var clasificationListEL = document.getElementById("clasification");
-//localStorage.clear();
 
 //Create questions Array
 var questions = [
@@ -184,7 +183,18 @@ function ClasificationTable() {
 
 //When you click enter, the event is "submit" and we want that eventListener to be added to scoreContainerEl.
 scoreContainerEl.addEventListener("submit", storeUsers);
+
 ClasificationTable();
 
+///Refresh page function
+function refreshPage(){
+    window.location.reload();
+}
 
+//Allows you to refresh the game but start with the localstorage empty
+function clearPage(){
+    window.location.reload();
+    //CLear the LocalStorage
+    localStorage.clear();
+}
 
