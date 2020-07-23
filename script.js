@@ -29,7 +29,7 @@ var questions = [
         a3: "<js>",
         correct: "a2",
     },{
-        q: "Choose the correct JavaScript syntaz to change the content of the following HTML code: <br><br> &ltp id='test'&gtThis is a test &lt/p&gt",
+        q: "Choose the correct JavaScript syntax to change the content of the following HTML code: <br><br> &ltp id='test'&gtThis is a test &lt/p&gt",
         a1: "document.getElementbyId('#test').innerHTML = 'I know the answer'",
         a2: "document.getElementbyId('test').innerHTML = I know the answer",
         a3: "document.getElementbyId('test').innerHTML = 'I know the answer'",
